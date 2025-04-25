@@ -20,7 +20,9 @@
           placeholder="Enter your city name..."
         />
 
-        <button class="btn btn-primary">Weather</button>
+        <button class="btn btn-primary" onclick="getWeatherData()">
+          Weather
+        </button>
       </div>
       <div class="d-flex flex-column gap-1">
         <p id="error" style="color: red"></p>
@@ -29,26 +31,26 @@
       <hr />
       <div class="d-flex justify-content-center align-items-center">
         <img id="icon" />
-        <div class="fs-5" id="temp">35 c</div>
+        <div class="fs-5" id="temp"></div>
       </div>
       <div class="d-flex gap-3">
         <div class="flex-column d-flex gap-2">
           <div class="fs-4">Country</div>
 
-          <div class="fs-5" id="country">Country</div>
+          <div class="fs-5" id="country"></div>
         </div>
 
         <div class="flex-column d-flex gap-2">
           <div class="fs-4">Region</div>
-          <div class="fs-5" id="region">Region</div>
+          <div class="fs-5" id="region"></div>
         </div>
         <div class="flex-column d-flex gap-2">
           <div class="fs-4">condition</div>
-          <div class="fs-5" id="condition">condition</div>
+          <div class="fs-5" id="condition"></div>
         </div>
         <div class="flex-column d-flex gap-2">
           <div class="fs-4">Humidity</div>
-          <div class="fs-5" id="humiditry">Humidity</div>
+          <div class="fs-5" id="humiditry"></div>
         </div>
       </div>
     </div>
